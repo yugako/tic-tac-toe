@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100vh;
+    overflow: hidden;
+}
+
+body {
+    background-color: hsl(0, 0%, 5%);
+    background-image: url(../img/bg.jpg);
+    text-align: center;
+    position: relative;
+    color: white;
+}
+
+h1 {
+    margin-bottom: 0;
+    font-family: 'Press Start 2P', cursive;
+    color: #f9f9f9;
+}
+
+.flex {
+    display: flex!important;
+}
+
+#game{
+    max-width: 320px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.statistic {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 28px;
+    font-family: 'Jura', sans-serif;
+}
+
+.statistic p {
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
